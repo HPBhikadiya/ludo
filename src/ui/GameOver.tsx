@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
-import { COLOR_NAME, HOME, type Color } from './game'
-import { PALETTE, swatch } from './theme'
-import { useGame } from './store'
+import { COLOR_NAME, HOME, type Color } from '../core/game'
+import { PALETTE, swatch } from '../core/theme'
+import { useGame } from '../core/store'
 import { IconCrown, IconExit, IconRestart, PawnIcon } from './icons'
 
 // the printed-cloth palette: the four dyes plus cream and turmeric

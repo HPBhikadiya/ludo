@@ -1,10 +1,10 @@
 import { useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import { tokenWorld, type Color } from './game'
-import { GROUND, PALETTE, TIMING, YARD_CENTER, damp } from './theme'
-import { ringTexture } from './textures'
-import { useGame } from './store'
+import { tokenWorld, type Color } from '../core/game'
+import { GROUND, PALETTE, TIMING, YARD_CENTER, damp } from '../core/theme'
+import { ringTexture } from './lib/textures'
+import { useGame } from '../core/store'
 
 let ring: THREE.Texture | null = null
 const ringTex = () => (ring ||= ringTexture())

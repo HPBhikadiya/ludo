@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { COLOR_NAME, HOME } from './game'
-import { swatch } from './theme'
-import { useGame, type Phase } from './store'
-import { sfx } from './sound'
+import { COLOR_NAME, HOME } from '../core/game'
+import { swatch } from '../core/theme'
+import { useGame, type Phase } from '../core/store'
+import { sfx } from '../core/sound'
 import {
   DieFace,
   IconBolt,

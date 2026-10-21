@@ -1,9 +1,9 @@
 import { memo, useMemo } from 'react'
 import * as THREE from 'three'
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js'
-import { cellToWorld, type Cell, type Color } from './game'
-import { GROUND, LAYOUT, NEUTRAL, PLATE_TOP } from './theme'
-import { arrowDecal, chevronDecal, rng, starDecal, tileTexture } from './textures'
+import { cellToWorld, type Cell, type Color } from '../../core/game'
+import { GROUND, LAYOUT, NEUTRAL, PLATE_TOP } from '../../core/theme'
+import { arrowDecal, chevronDecal, rng, starDecal, tileTexture } from '../lib/textures'
 
 const TILE_H = GROUND - PLATE_TOP
 const VARIANTS = 6

@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import { cellToWorld, yardSpot, YARD_ORIGIN, type Color } from './game'
-import { damp, GROUND, LAYOUT, PALETTE, PLATE_TOP, SCENE } from './theme'
-import { paintYardStitch, recessTexture, yardTexture } from './textures'
-import { useGame } from './store'
+import { cellToWorld, yardSpot, YARD_ORIGIN, type Color } from '../../core/game'
+import { damp, GROUND, LAYOUT, PALETTE, PLATE_TOP, SCENE } from '../../core/theme'
+import { paintYardStitch, recessTexture, yardTexture } from '../lib/textures'
+import { useGame } from '../../core/store'
 
 const THICK = GROUND - PLATE_TOP
 

@@ -2,11 +2,11 @@ import { useEffect, useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js'
-import { useGame } from './store'
-import { sfx } from './sound'
-import { DICE, EASE, GROUND, NEUTRAL, PALETTE, TIMING, YARD_CENTER, damp, lerp } from './theme'
-import { blobTexture, diceFaceMaps } from './textures'
-import { newPose, sampleRoll, type RollPlan } from './diceMotion'
+import { useGame } from '../core/store'
+import { sfx } from '../core/sound'
+import { DICE, EASE, GROUND, NEUTRAL, PALETTE, TIMING, YARD_CENTER, damp, lerp } from '../core/theme'
+import { blobTexture, diceFaceMaps } from './lib/textures'
+import { newPose, sampleRoll, type RollPlan } from './lib/diceMotion'
 
 // BoxGeometry material order: +x, -x, +y, -y, +z, -z (opposite faces always add up to 7)
 const FACE_VALUES = [1, 6, 2, 5, 3, 4]

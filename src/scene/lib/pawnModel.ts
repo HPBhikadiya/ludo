@@ -1,6 +1,6 @@
 import * as THREE from 'three'
-import type { Color } from './game'
-import { NEUTRAL, PALETTE, PAWN_STYLE, type HeadKind } from './theme'
+import type { Color } from '../../core/game'
+import { NEUTRAL, PALETTE, PAWN_STYLE, type HeadKind } from '../../core/theme'
 
 /**
  * A turned-and-lacquered pawn, in the spirit of Channapatna toys: flared skirt, a bead collar, a slim neck

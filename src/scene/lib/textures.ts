@@ -1,6 +1,6 @@
 import * as THREE from 'three'
-import { COLORS, type Color } from './game'
-import { DICE, LAYOUT, NEUTRAL, PALETTE, PAWN_STYLE, type HeadKind } from './theme'
+import { COLORS, type Color } from '../../core/game'
+import { DICE, LAYOUT, NEUTRAL, PALETTE, PAWN_STYLE, type HeadKind } from '../../core/theme'
 
 /**
  * Procedural art. Every texture is painted on a canvas with a seeded random source, so the "hand wear"

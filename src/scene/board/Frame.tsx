@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import * as THREE from 'three'
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js'
-import { COLORS, COLOR_NAME, type Color } from './game'
-import { BOARD_HALF, LAYOUT, NEUTRAL, PLATE_TOP, YARD_CENTER } from './theme'
-import { DISPLAY_FONT, boardShadowTexture, clothBump, clothTexture, labelTexture, woodTexture } from './textures'
+import { COLORS, COLOR_NAME, type Color } from '../../core/game'
+import { BOARD_HALF, LAYOUT, NEUTRAL, PLATE_TOP, YARD_CENTER } from '../../core/theme'
+import { DISPLAY_FONT, boardShadowTexture, clothBump, clothTexture, labelTexture, woodTexture } from '../lib/textures'
 
 const rbox = (w: number, h: number, d: number, r: number) => new RoundedBoxGeometry(w, h, d, 3, r)
 

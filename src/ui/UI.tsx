@@ -1,4 +1,4 @@
-import { useGame } from './store'
+import { useGame } from '../core/store'
 import Setup from './Setup'
 import Hud from './Hud'
 import GameOver from './GameOver'

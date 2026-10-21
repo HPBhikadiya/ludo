@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { DICE, EASE, TIMING, clamp01, lerp, spring } from './theme'
+import { DICE, EASE, TIMING, clamp01, lerp, spring } from '../../core/theme'
 
 /**
  * The tap-to-result timeline of one dice roll, as a pure function of time.

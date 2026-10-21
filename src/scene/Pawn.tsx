@@ -1,11 +1,11 @@
 import { memo, useEffect, useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import { HOME, cellFor, tokenWorld, type Color } from './game'
-import { EASE, GROUND, PALETTE, RECESS, TIMING, clamp01, damp, lerp, spring } from './theme'
-import { blobTexture, glowTexture, ringTexture } from './textures'
-import { pawnGeometry, pawnMaterial } from './pawnModel'
-import { useGame } from './store'
+import { HOME, cellFor, tokenWorld, type Color } from '../core/game'
+import { EASE, GROUND, PALETTE, RECESS, TIMING, clamp01, damp, lerp, spring } from '../core/theme'
+import { blobTexture, glowTexture, ringTexture } from './lib/textures'
+import { pawnGeometry, pawnMaterial } from './lib/pawnModel'
+import { useGame } from '../core/store'
 
 type V2 = [number, number]
 type Seg =

@@ -7,8 +7,8 @@ import {
   TRACK,
   type Cell,
   type Color,
-} from './game'
-import { muted } from './theme'
+} from '../../core/game'
+import { muted } from '../../core/theme'
 import Frame from './Frame'
 import Yard from './Yard'
 import Tile, { type Mark } from './Tile'

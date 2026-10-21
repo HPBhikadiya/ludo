@@ -1,16 +1,16 @@
 import { memo, useMemo } from 'react'
 import { Environment, Lightformer, OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
-import Board from './Board'
+import Board from './board/Board'
 import Pawn from './Pawn'
 import Dice from './Dice'
 import Stage from './Stage'
 import { Burst, Post } from './Effects'
 import { Destinations, RollCue } from './Markers'
-import { COLORS, cellFor, cellToWorld, type Color, type Tokens } from './game'
-import { GROUND, SCENE } from './theme'
-import { badgeTexture } from './textures'
-import { useGame } from './store'
+import { COLORS, cellFor, cellToWorld, type Color, type Tokens } from '../core/game'
+import { GROUND, SCENE } from '../core/theme'
+import { badgeTexture } from './lib/textures'
+import { useGame } from '../core/store'
 
 interface Placed {
   offset: [number, number]

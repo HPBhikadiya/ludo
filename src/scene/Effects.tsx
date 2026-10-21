@@ -3,9 +3,9 @@ import { useFrame } from '@react-three/fiber'
 import { EffectComposer, ToneMapping, Vignette } from '@react-three/postprocessing'
 import { ToneMappingMode } from 'postprocessing'
 import * as THREE from 'three'
-import { GROUND, PALETTE } from './theme'
-import { ringTexture } from './textures'
-import { useGame } from './store'
+import { GROUND, PALETTE } from '../core/theme'
+import { ringTexture } from './lib/textures'
+import { useGame } from '../core/store'
 
 /** Anti-aliasing, a gentle lamp-lit vignette and neutral tone mapping, so the dyes keep their colour. */
 export function Post() {

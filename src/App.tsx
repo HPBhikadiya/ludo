@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three'
-import Scene from './Scene'
-import UI from './UI'
-import { useGame } from './store'
-import { chooseMove, movableTokens } from './game'
+import Scene from './scene/Scene'
+import UI from './ui/UI'
+import { useGame } from './core/store'
+import { chooseMove, movableTokens } from './core/game'
 
 /** Drives CPU players: rolls and picks tokens after a short pause. */
 function useCpu() {

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react'
-import type { Color } from './game'
-import { PAWN_STYLE } from './theme'
+import type { Color } from '../core/game'
+import { PAWN_STYLE } from '../core/theme'
 
 type IconProps = SVGProps<SVGSVGElement>
 

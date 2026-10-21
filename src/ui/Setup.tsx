@@ -1,8 +1,8 @@
 import { useState, type CSSProperties, type ReactNode } from 'react'
-import { COLORS, COLOR_NAME, type Color } from './game'
-import { swatch } from './theme'
-import { useGame, type Seat } from './store'
-import { sfx } from './sound'
+import { COLORS, COLOR_NAME, type Color } from '../core/game'
+import { swatch } from '../core/theme'
+import { useGame, type Seat } from '../core/store'
+import { sfx } from '../core/sound'
 import { DieFace, IconBan, IconBolt, IconPlay, IconRepeat, IconStar, IconTarget, PawnIcon } from './icons'
 
 const SEATS: { id: Seat; label: string }[] = [

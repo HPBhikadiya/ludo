@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
-import { COLORS, type Color } from './game'
-import { GROUND, NEUTRAL, PALETTE, PLATE_TOP, muted } from './theme'
-import { centerStitchTexture } from './textures'
+import { COLORS, type Color } from '../../core/game'
+import { GROUND, NEUTRAL, PALETTE, PLATE_TOP, muted } from '../../core/theme'
+import { centerStitchTexture } from '../lib/textures'
 
 const TILE_H = GROUND - PLATE_TOP
 const HALF = 1.47 // half the 3x3 centre, minus the gap

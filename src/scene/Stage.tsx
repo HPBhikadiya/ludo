@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
-import { BOARD_HALF, NEUTRAL, SCENE } from './theme'
-import { woodTexture } from './textures'
-import { useGame } from './store'
+import { BOARD_HALF, NEUTRAL, SCENE } from '../core/theme'
+import { woodTexture } from './lib/textures'
+import { useGame } from '../core/store'
 
 /** The dark room around the table, with fog so the far edge of the table melts away. */
 function Mood() {
